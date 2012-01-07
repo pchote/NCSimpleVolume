@@ -18,7 +18,7 @@
 @implementation SimpleVolumeSliderController
 
 + (void)initialize {}
-- (float)viewHeight { return 30; }
+- (float)viewHeight { return 34; }
 
 - (UIView *)view 
 {
@@ -37,7 +37,7 @@
             UIImage *trackMin = [[UIImage imageNamed:@"SwitcherSliderTrackMin.png"] resizableImageWithCapInsets: UIEdgeInsetsMake(0, 5, 0, 5)];
             UIImage *trackMax = [[UIImage imageNamed:@"SwitcherSliderTrackMax.png"] resizableImageWithCapInsets: UIEdgeInsetsMake(0, 5, 0, 5)];
 
-            MPVolumeView *volumeView = [[MPVolumeView alloc] initWithFrame:CGRectMake(margin, 6, mainFrame.size.width - 2*margin, mainFrame.size.height)];
+            MPVolumeView *volumeView = [[MPVolumeView alloc] initWithFrame:CGRectMake(margin, 8, mainFrame.size.width - 2*margin, mainFrame.size.height)];
             volumeView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
             [mainView addSubview: volumeView];
 
