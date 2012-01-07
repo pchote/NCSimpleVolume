@@ -1,0 +1,11 @@
+Name: Simple Volume Slider
+Package: net.chote.paul.simplevolumeslider
+Priority: optional
+Depends: firmware (>= 5.0)
+Version: 1.0.0-1
+Architecture: iphoneos-arm
+Description: A simple volume slider notification center widget
+Maintainer: Paul Chote <paul@chote.net>
+Author: Paul Chote <paul@chote.net>
+Section: Addons (NotificationCenter)
+Installed-Size: 32
